@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/franklin.obasi/Documents/MlOps_Projects/MLOPS_A/mlruns/0/4deaf06578074b73afb8d21c9194744c/artifacts
+end_time: 1721224549374
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4deaf06578074b73afb8d21c9194744c
+run_name: masked-ape-764
+run_uuid: 4deaf06578074b73afb8d21c9194744c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721224539090
+status: 3
+tags: []
+user_id: franklin.obasi
