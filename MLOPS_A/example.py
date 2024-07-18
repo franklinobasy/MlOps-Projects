@@ -78,7 +78,11 @@ if __name__ == "__main__":
         # signature = infer_signature(train_x, predictions)
         
         # For remote server only (dagshub)
-        remote_server_uri = "https://dagshub.com/franklinobasy/MlOps-Projects.mlflow"
+        # remote_server_uri = "https://dagshub.com/franklinobasy/MlOps-Projects.mlflow"
+        
+        # for remote sever only (aws ec2)
+        remote_server_uri = "http://ec2-44-206-252-28.compute-1.amazonaws.com:5000/"
+        
         mlflow.set_tracking_uri(remote_server_uri)
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
