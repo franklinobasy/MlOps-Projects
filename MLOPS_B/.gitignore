@@ -1,3 +1,5 @@
 venv/
 src/cnnClassifier.egg-info
 research/Chest-CT-Scan-data.zip
+artifacts
+*.pyc
